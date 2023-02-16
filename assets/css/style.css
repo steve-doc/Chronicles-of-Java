@@ -10,10 +10,68 @@
 
 /*----------------------------------------------------- Header */
 
+.header {
+    height: 7rem;
+    border: 1px solid #000;
+}
+
 /*----------------------------------------------------- Footer */
 
 /*------------------------------------------------------- Main */
 
+/* Hero image */
+
+.hero-image {
+    height: 35rem;
+    border: 1px solid #000;
+}
+
+/* Gallery */
+
+.gallery {
+    height: 35rem;
+    border: 1px solid #000;
+}
+
+/* Get involved */
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.cta-btn {
+    text-decoration: none;
+    border: 1px solid #000;
+    padding: 1rem 2rem;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
 /****************************************************************
 ************************* Media queries *************************
 *****************************************************************/
+
+@media screen and (min-width: 768px) {
+
+    .projects {
+        flex-direction: row;
+    }
+
+    .projects > * {
+        flex: 1;
+    }
+
+    .projects-title {
+        margin-bottom: 1rem;
+    }
+}
