@@ -51,11 +51,29 @@ nav ul {
 /* Hero image */
 
 .hero-image {
-    height: 35rem;
+    height: 90vh;
+    max-width: 100%;
     border: 1px solid #000;
-    background-image: url("/workspaces/Chronicles-of-Java/assets/images/hero-img.jpg");
+    color: #fff;
+    background-image: url('../images/hero-img.jpg');
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.hero-image h1 {
+    color: rgb(221, 57, 57);
+    margin-top: 1.5em;
+    text-align: center;
+    font-size: 3em;
+    background-color: #00000048;
+}
+
+.main-heading h2 {
+    text-align: center;
+    color: rgb(221, 57, 57);
+    font-size: 2em;
+    background-color: #00000048;
+    margin-top: 6em;
 }
 
 /* Gallery */
