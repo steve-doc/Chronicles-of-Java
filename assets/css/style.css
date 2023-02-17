@@ -210,6 +210,18 @@ li {
     gap: 1rem;
 }
 
+/* Video of the Day */
+.video-of-day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-of-day div {
+    margin-bottom: 1rem;
+}
+
 /****************************************************************
 ************************* Media queries *************************
 *****************************************************************/
