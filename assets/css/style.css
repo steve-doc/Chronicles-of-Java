@@ -42,14 +42,16 @@ nav {
 ul {
     display: flex;
     list-style-type: none;
-    width: 500px;
+    max-width: 60%;
     justify-content: space-around;
-    font-size: 30px;
+    font-size: .7em;
 }
 
 li {
-    /* width: 200px; */
+    display: inline-block;
     text-decoration: none;
+    padding: .3em .7em;
+    flex-shrink: 1;
 }
 
 .nav-link {
@@ -80,6 +82,7 @@ li {
 
 .media-buttons {
     text-align: center;
+    margin: 0 auto;
  }
  
  .media-buttons > li {
@@ -225,6 +228,14 @@ li {
 /****************************************************************
 ************************* Media queries *************************
 *****************************************************************/
+
+
+@media screen and (max-width: 500px) {
+
+    nav ul {
+        flex-direction: column;
+    }
+}
 
 @media screen and (min-width: 768px) {
 
