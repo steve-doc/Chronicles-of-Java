@@ -11,21 +11,53 @@
 
 /*----------------------------------------------------- Header */
 
-.header {
+/* .header {
     height: 7rem;
     border: 1px solid #000;
     margin-top: 1em;
     text-align: center;
+} */
+
+/*----------------------------------------------------- Section */
+
+section {
+    height: 500px;
+    background-color: white;
+    border: solid black 1px;
 }
 
-nav ul {
+/* nav ul {
     display: flex;
+} */
+
+
+/* -- Navbar -- km */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
 }
 
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
 
-/* Navbar */
+li {
+    /* width: 200px; */
+    text-decoration: none;
+}
 
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
 
+/* -- Get-Involved -- */
 #get-involved {
     display: inline-block;
     text-decoration: none;
@@ -50,7 +82,7 @@ nav ul {
 
 /* Hero image */
 
-.hero-image {
+/* .hero-image {
     height: 90vh;
     max-width: 100%;
     border: 1px solid #000;
@@ -74,6 +106,61 @@ nav ul {
     font-size: 2em;
     background-color: #00000048;
     margin-top: 6em;
+} */
+
+/* -- Hero image -- km */
+
+.hero-image {
+    height: 100vh;
+    color: white;
+    font-size: 30px;
+    background-image: url("/assets/images/RhinoP.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+
+}
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.container {
+    max-width: 350px;
+    text-align: center;
+    padding: 1px;
+    margin-top: 80px;
+}
+
+.container p {
+    font-size: 20px;
+}
+
+.buttonD {
+    width: 200px;
+    height: 60px;
+    /* border-radius: 32.5px; */
+    background-color: #e73d3d;
+    text-align: center;
+    font-weight: 300;
+    font-size: 35px;
+    padding-top: 5px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.buttonA {
+    width: 200px;
+    height: 60px;
+    /* border-radius: 32.5px; */
+    background-color: #e1bf69;
+    text-align: center;
+    font-weight: 300;
+    font-size: 35px;
+    padding-top: 5px;
+    margin-top: 20px;
+    margin-left: 60px;
 }
 
 /* Gallery */
