@@ -78,6 +78,22 @@ li {
 
 /*----------------------------------------------------- Footer */
 
+.media-buttons {
+    text-align: center;
+ }
+ 
+ .media-buttons > li {
+     display: inline;
+ }
+ 
+ .media-buttons i {
+     font-size: 150%;
+     margin: 1%;
+     padding: 5%;
+     color: rgb(126, 41, 26);
+ }
+ 
+
 /*------------------------------------------------------- Main */
 
 /* Hero image */
