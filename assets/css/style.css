@@ -6,6 +6,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 /*----------------------------------------------------- Header */
@@ -15,6 +16,10 @@
     border: 1px solid #000;
     margin-top: 1em;
     text-align: center;
+}
+
+nav ul {
+    display: flex;
 }
 
 
@@ -48,6 +53,9 @@
 .hero-image {
     height: 35rem;
     border: 1px solid #000;
+    background-image: url("/workspaces/Chronicles-of-Java/assets/images/hero-img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* Gallery */
