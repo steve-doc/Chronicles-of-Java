@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save the Rhinos Gallery</title>
+
+    
+  <!-- font-awesome-->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+  <script src="https://kit.fontawesome.com/5ab2e71812.js" crossorigin="anonymous"></script>
+  
+  <!--jQuery link-->
+  <link rel="stylesheet" href="css/flipster.min.css">
+  <link rel="stylesheet" href="js/jsflipster/jquery.flipster.min.css">
+
+  <!--style.css link-->
+  <link rel="stylesheet" href="css/gallery.css">
+
+
+</head>
+<body>
+    <div class="container">
+        <a href="#" class="toggleBox">
+            <span class="icon"></span>
+        </a>
+        <ul class="navItems">
+            <li>
+                <a href="index.html">
+                    <i class="fa fa-home" style="--i:1"></i>
+                    <span style="--g:1">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="index.html">
+                    <i class="fa-sharp fa-solid fa-hand-holding-hand" style="--i:2"></i>
+                    <span style="--g:2">Get Involved</span>
+                </a>
+            </li>
+            <li>
+                <a href="index.html">
+                    <i class="fa-solid fa-circle-dollar-to-slot" style="--i:3"></i>
+                    <span style="--g:3">Donate</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="hero">
+        <div class="carousel">
+            <ul>
+                <li><img src="images/Rhino1.png"></li>
+                <li><img src="images/Rhino2.png"></li>
+                <li><img src="images/Rhino3.png"></li>
+                <li><img src="images/Rhino4.png"></li>
+                <li><img src="images/Rhino5.png"></li>
+                <li><img src="images/Rhino6.png"></li>
+                <li><img src="images/Rhino7.png"></li>
+                <li><img src="images/Rhino8.png"></li>
+            </ul>
+        </div>
+    </div>
+
+    <!---JQuery CDN-->
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.flipster/1.1.5/jquery.flipster.min.js"
+     integrity="sha512-YPskov+TTZvojhg9iWYQKa6iRPRm8hko8GBbdV8A8KKMTwp84+jm2K+soYNx3Wf6qQhxb+kn2sjpMZwkWxnD/g==" crossorigin="anonymous" 
+     referrerpolicy="no-referrer"></script>
+
+    <!--JQuery FilpSter-->
+
+    <script src="js/j/workspace/Chronicles-of-Java/js/jsflipsterquery.min.js"></script>
+    <script src="js/jsflipster/jquery.flipster.min.js"></script>
+    <script>
+   $('.carousel').flipster({
+       style:"carousel",
+       spacing: -0.3,
+     });
+    </script>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
