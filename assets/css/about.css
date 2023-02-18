@@ -1,0 +1,96 @@
+
+* {
+    box-sizing: border-box;
+    /* background: black; */
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 15px;
+    font-size: 30px;
+    background: black;
+}
+
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    max-width: 60%;
+    justify-content: space-around;
+    font-size: .7em;
+}
+
+nav li {
+    display: inline-block;
+    text-decoration: none;
+    padding: .3em .7em;
+    flex-shrink: 1;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.who-box {
+    max-width: 350px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(128, 128, 128, .3);
+    border-radius: 8px;
+    margin-right: 3%;
+
+}
+
+
+.what-box {
+    max-width: 350px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(128, 128, 128, .3);
+    border-radius: 8px;
+    margin-left: 3%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.spacer {
+    clear: both;
+}
+
+.who-image {
+    height: 100vh;
+    color: white;
+    background-image: url("/assets/images/rhino-ranger.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
+.what-image {
+    height: 100vh;
+    color: white;
+    background-image: url("/assets/images/rhino-ranger-2.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
+.vertical-center-right {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.vertical-center-left {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
